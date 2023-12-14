@@ -1,8 +1,20 @@
 header {
  margin-top: 0;
-    background-image: url(./imagenes/IMAGEN_HERO.jpg); 
-    height: 50vh;
+    background-image: url(./imagenes/IMAGEN_HERO_new.jpg); 
+    height: 65vh;
     color: black;
+
+  }
+  .row {
+    top: 3rem;
+    left: 30rem;
+    width: 80%;
+position: relative;
+
+  }
+  .col-md-3{
+    background-color: white;
+    border-radius: 3%;
   }
   
   aside {
@@ -12,9 +24,8 @@ header {
     color: black;
   }
   .img-fluid{
-    
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
   }
   nav {
     background-color: #01557D;
