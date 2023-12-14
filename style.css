@@ -2,18 +2,46 @@
 header {
   margin-top: 0;
   opacity: 0.8;
-  background-image: url(./imagenes/IMAGEN_HERO.jpg);
+  background-image: url(./imagenes/IMAGEN_HERO_new.jpg);
   background-size: cover;
-  height: 65vh;
+  height: 75vh;
   background-position: center center;
   background-repeat: no-repeat;
   background-color: #000;
   color: black;
 }
+header .container{
+  width: 100%;
+  padding: 20px;
+}
+header .col-md-4 {
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header hr{
+  color: yellow;
+  width: 50%;
+  border: yellow 2px solid;
+}
+
 header li {
   background-color: transparent;
   color: white;
   font-weight: bold;
+}
+header .nav-link{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+header span {
+  left: 2px;
+  position: relative;
+}
+header .col-md-3{
+  left: 3rem;
 }
 
 section hr{
@@ -32,7 +60,7 @@ section i{
 }
 
 
-.col-md-3 {
+section .col-md-3 {
 
   background-color: white;
   border-radius: 3%;
