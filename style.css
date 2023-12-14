@@ -10,6 +10,11 @@ header {
   background-color: #000;
   color: black;
 }
+header li {
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+}
 
 section hr{
   color: yellow;
