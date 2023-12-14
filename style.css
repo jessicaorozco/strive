@@ -125,6 +125,8 @@ nav a {
 }
 #courses .col-md-3 {
   padding: 10rem;
+  color: white;
+  align-items: center;
 }
 #courses div{
   background-color: transparent;
