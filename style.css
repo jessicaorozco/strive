@@ -60,24 +60,31 @@ section i{
   color: yellow;
 }
 
-#about h5{
+#about h6{
   background-color: #02557D;
 }
 #about div{
+  color: white;
+  font-weight: bold;
   background-color: #02557D;
 }
-
-
 section .col-md-3 {
-
   background-color: white;
   border-radius: 3%;
 
 }
+#about img{
+  width: 20%;
+  border-radius: 1rem;
+}
 #about{
   background-color: #02557D;
 }
-
+#about hr{
+  color: yellow;
+  width: 50%;
+  border: yellow 2px solid;
+}
 section {
   padding: 3rem;
   
