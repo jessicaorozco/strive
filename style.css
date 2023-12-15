@@ -1,6 +1,7 @@
-body{
-font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
+
 header {
   margin-top: 0;
   opacity: 0.8;
@@ -13,16 +14,18 @@ header {
   color: white;
 }
 
-header .container{
+header .container {
   width: 100%;
   padding: 20px;
 }
+
 header .col-md-4 {
   background-color: transparent;
   color: white;
   font-weight: bold;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 header .col-md-3 {
   background-color: white;
   color: black;
@@ -30,7 +33,8 @@ header .col-md-3 {
   font-weight: bold;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-header hr{
+
+header hr {
   color: yellow;
   width: 50%;
   border: yellow 2px solid;
@@ -41,57 +45,67 @@ header li {
   color: white;
   font-weight: bold;
 }
-header .nav-link{
+
+header .nav-link {
   color: white;
   text-decoration: none;
   font-weight: bold;
 }
+
 header span {
   left: 2px;
   position: relative;
 }
-header .col-md-3{
+
+header .col-md-3 {
   background-color: linear-gradient(to bottom, transparent, blue);
   left: 3rem;
 }
 
-section hr{
+section hr {
   color: yellow;
   width: 50%;
   border: yellow 2px solid;
 }
-section i{
+
+section i {
   color: yellow;
 }
 
-#about h6{
+#about h6 {
   background-color: #02557D;
 }
-#about div{
+
+#about div {
   color: white;
   font-weight: bold;
   background-color: #02557D;
 }
+
 section .col-md-3 {
   background-color: white;
   border-radius: 3%;
 
 }
-#about img{
+
+#about img {
   width: 20%;
   border-radius: 1rem;
 }
-#about{
+
+#about {
   background-color: #02557D;
 }
-#about hr{
+
+#about hr {
   color: yellow;
   width: 50%;
   border: yellow 2px solid;
 }
+
 section {
   padding: 1rem;
-  
+
 }
 
 .card {
@@ -164,7 +178,8 @@ nav a {
 .col-md-3 {
   float: right;
 }
-#courses{
+
+#courses {
   margin-top: 0;
   opacity: 0.8;
   background-image: url(./imagenes/bacbenef.jpg);
@@ -181,18 +196,21 @@ nav a {
   color: white;
   align-items: center;
 }
-#courses div{
+
+#courses div {
   background-color: transparent;
   border-radius: 50%;
   width: 150px;
   height: 150px;
   align-items: center
 }
-#courses img{
+
+#courses img {
   width: 50%;
   height: 50%;
 
 }
+
 #aside::after {
   content: "";
   position: absolute;
@@ -220,7 +238,8 @@ footer {
 #careers .card-title {
   text-align: center;
 }
-header .form-control{
+
+header .form-control {
   background-color: transparent;
 }
 
@@ -228,9 +247,10 @@ header .form-control{
   display: block;
   margin: 0 auto;
 }
+
 .grid {
   display: grid;
-  grid-template-columns: 3fr 3fr 5fr ;
+  grid-template-columns: 3fr 3fr 5fr;
   grid-row-gap: 10px;
 }
 
@@ -246,19 +266,21 @@ header .form-control{
   width: 50%;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 #team {
   background-color: rgb(213, 210, 210);
 }
-#team div{
+
+#team div {
   background-color: transparent;
 }
 
-#team .card{
+#team .card {
   align-items: center;
 }
+
 /* #team .card-img-overlay {
   position: absolute;
   top: 0;
@@ -277,9 +299,49 @@ header .form-control{
   left: calc(50% - 50px);
 }
 
-#team .card-body{
+#team .card-body {
   z-index: 1;
 
 }
 
+#video {
+  background-color: white;
+  margin-top: 0;
+  color: black;
 
+
+}
+#video img{
+  background-image: url('./imagenes/constru.jpg');
+  background-size: cover;
+  height: 50vh;
+    margin-top: 0;
+  color: black;
+
+}
+#video .col-md-3 {
+ width: 40%;
+ height: 30vh;
+  margin-top: 10%;
+  color: black;
+
+}
+#video .card-img-top {
+  position: absolute;
+}
+
+#video .card-title {
+  color: white;
+  position: absolute;
+  text-transform: uppercase;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#video p {
+  font-weight: bold;
+  font-size: small;
+color: white;
+text-transform: uppercase;
+}
