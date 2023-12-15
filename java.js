@@ -6,3 +6,9 @@ const images = [
   ];
 
   
+  document.addEventListener('DOMContentLoaded', () => {
+    const carousel = document.getElementById('carouselExampleControlsNoTouching');
+    carousel.addEventListener('slide.bs.carousel', () => {
+      carousel.play();
+    });
+  });

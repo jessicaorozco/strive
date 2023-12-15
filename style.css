@@ -321,7 +321,7 @@ header .form-control {
 }
 #video .col-md-3 {
  width: 40%;
- height: 30vh;
+ height: 40vh;
   margin-top: 10%;
   color: black;
 
@@ -332,16 +332,30 @@ header .form-control {
 
 #video .card-title {
   color: white;
-  position: absolute;
+  position: relative;
   text-transform: uppercase;
-  top: 50%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 #video p {
-  font-weight: bold;
-  font-size: small;
-color: white;
-text-transform: uppercase;
+  color: white;
+  position: relative;
+  text-transform: uppercase;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#video .card-img-overlay div {
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 50px);
+}
+#video iframe{
+ left: 60%;
+   position: relative;
+  width: 40%;
+  
 }
