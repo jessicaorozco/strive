@@ -4,12 +4,13 @@ header {
   opacity: 0.8;
   background-image: url(./imagenes/IMAGEN_HERO_new.jpg);
   background-size: cover;
-  height: 75vh;
+  height: 65vh;
   background-position: center center;
   background-repeat: no-repeat;
   background-color: #000;
   color: white;
 }
+
 header .container{
   width: 100%;
   padding: 20px;
@@ -87,7 +88,7 @@ section .col-md-3 {
   border: yellow 2px solid;
 }
 section {
-  padding: 3rem;
+  padding: 1rem;
   
 }
 
@@ -212,3 +213,37 @@ footer {
   color: white;
   padding: 10px;
 }
+
+
+#careers .card-title {
+  text-align: center;
+}
+header .form-control{
+  background-color: transparent;
+}
+
+#careers .btn {
+  display: block;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 3fr 3fr 5fr ;
+  grid-row-gap: 10px;
+}
+
+.columna-1 {
+  width: 90%;
+}
+
+.columna-2 {
+  width: 90%;
+}
+
+.columna-3 {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  
+}
+
