@@ -230,10 +230,16 @@ aside {
 
 footer {
   background-color: #02557D;
-  color: white;
+  color: yellow;
   padding: 10px;
 }
-
+footer h5{
+ color: rgb(255, 196, 0);
+}
+footer a{
+  color: white;
+  text-decoration: none;
+ }
 
 #careers .card-title {
   text-align: center;
